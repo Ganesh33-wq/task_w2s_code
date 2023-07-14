@@ -1,0 +1,25 @@
+<div>
+    <h1 style="text-align: center;margin-top: 50px;"><strong>Dashboard</strong></h1>
+</div>
+
+<div>
+  <mat-card *ngFor="let card of user_count">
+    <mat-card-header>
+      <div mat-card-avatar class="card-avatar"></div>
+      <div class="card-header-text">
+        <mat-card-title>Postion :{{ card.Role }}</mat-card-title>
+        <mat-card-subtitle>Total Role:{{ card.count }}</mat-card-subtitle>
+      </div>
+    </mat-card-header>
+  </mat-card>
+  
+</div>
+<div class="dashboard">
+    <div class="chart-container">
+      <canvas #chartCanvas></canvas>
+    </div>
+    <div class="graph-container">
+      <canvas #graphCanvas></canvas>
+    </div>
+  </div>
+  

@@ -1,0 +1,25 @@
+ Frontend
+ 
+ cd W2s /W2s
+ 
+ Package installcmd: yarn install
+ 
+ Run cmd: ng s
+ 
+ 
+ 
+ Backend 
+ 
+ cd  cd W2s /w2stask
+ 
+ env activate cmd: pipenv shell
+ 
+ package install cmd:pipenv install
+ 
+ Run:
+ 
+ 1.python manage.py makemigrations
+ 
+ 2.python manage.py migrate
+ 
+ 3.python manage.py runserver

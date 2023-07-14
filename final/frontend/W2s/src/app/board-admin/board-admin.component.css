@@ -1,0 +1,112 @@
+
+/* Responsive Styling */
+@media (max-width: 767px) {
+    .col-md-4,
+    .col-md-8 {
+      margin-bottom: 15px;
+    }
+  }
+  
+  /* Main Body */
+  .main-body {
+    padding: 20px;
+  }
+  
+  /* Card Styling */
+  .card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-header-tab {
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .card-header-title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  /* List Group Styling */
+  .list-group-item {
+    padding: 15px;
+    border: none;
+  }
+  
+  .list-group-item svg {
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  th {
+    font-weight: 600;
+  }
+  
+  /* Button Styling */
+  button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  button.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+  
+  button.btn-outline-primary {
+    color: #007bff;
+    border: 1px solid #007bff;
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+  
+  /* Image Styling */
+  img.rounded-circle {
+    border-radius: 50%;
+  }
+  
+  /* Text Styling */
+  h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .text-secondary {
+    color: #6c757d;
+  }
+  
+  .text-muted {
+    color: #999;
+  }
+  
+  /* Responsive Table Styling */
+  .scroll-area-sm table {
+    width: auto;
+  }
+  
+  .scroll-area-sm {
+    height: 77vh;
+    overflow-x: hidden;
+}

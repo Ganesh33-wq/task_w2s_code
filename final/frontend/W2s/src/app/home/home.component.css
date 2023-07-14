@@ -1,0 +1,74 @@
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.chart-container,
+.graph-container {
+  flex: 1 1 50%;
+  margin: 10px;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.chart-container canvas,
+.graph-container canvas {
+  margin-right: 30px;
+  width: 100%;
+  height: auto;
+}
+
+.mat-card {
+  margin-left: 40px;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 40px; 
+}
+.card-avatar {
+  background-color: #28d3e2;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.card-header-text {
+  margin-left: 8px;
+}
+
+.mat-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.mat-card-subtitle {
+  font-size: 14px;
+  color: #777;
+}
+
+.mat-card-content {
+  padding: 16px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .mat-card {
+    width: 100%;
+    margin-right: 0; 
+  }
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: -20px; 
+}
